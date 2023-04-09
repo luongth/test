@@ -1,0 +1,9 @@
+{
+     "type": "record",
+     "namespace": "tal.solutions.test.avro",
+     "name": "AvroSimpleMessage",
+     "fields": [
+       { "name": "messageType", "type": "string" },
+       { "name": "payload", "type": "string" }
+     ]
+}
